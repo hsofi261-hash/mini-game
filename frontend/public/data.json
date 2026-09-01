@@ -1,0 +1,78 @@
+{
+  "tic-tac-toe": {
+    "id": "tic-tac-toe",
+    "title": "Tic-Tac-Toe",
+    "tagline": "The timeless game of grid strategy and tactical placement.",
+    "description": "Challenge yourself against a smart AI opponent or match up with players worldwide. Master corner control, force double-threat setups, and dominate the 3x3 grid.",
+    "category": "Strategy",
+    "difficulty": "Easy",
+    "rating": 4.8,
+    "totalReviews": 1240,
+    "plays": "12.4k",
+    "icon": "❌⭕",
+    "color": "from-blue-600 to-indigo-700",
+    "stats": {
+      "onlinePlayers": 142
+    },
+    "rules": [
+      { "step": 1, "title": "Grid Setup", "desc": "The game is played on a 3x3 grid of nine square spots." },
+      { "step": 2, "title": "Taking Turns", "desc": "Player 1 places an X and Player 2 places an O in turn until all spots are filled or a player wins." },
+      { "step": 3, "title": "Winning Condition", "desc": "Connect 3 of your marks horizontally, vertically, or diagonally to secure victory." },
+      { "step": 4, "title": "Draw Condition", "desc": "If all 9 squares are filled and neither player has 3 marks in a row, the match ends in a draw." }
+    ],
+    "tips": [
+      "Occupy the center square early to maximize potential line connections.",
+      "Control two opposing corners to force your opponent into defense mode.",
+      "Create a double-threat (fork) where you have two ways to win on your next turn."
+    ],
+    "leaderboard": [
+      { "rank": 1, "user": "TacticalMaster", "avatar": "🧙‍♂️", "wins": 342, "winRate": "88%", "score": 2890, "badge": "🏆 Grandmaster" },
+      { "rank": 2, "user": "GridNinja", "avatar": "🥷", "wins": 298, "winRate": "82%", "score": 2650, "badge": "⚡ Speedster" },
+      { "rank": 3, "user": "ZeroCool", "avatar": "🤖", "wins": 265, "winRate": "79%", "score": 2410, "badge": "🔥 Hot Streak" },
+      { "rank": 4, "user": "PixelQueen", "avatar": "👑", "wins": 210, "winRate": "75%", "score": 2180 },
+      { "rank": 5, "user": "CornerKing", "avatar": "🧩", "wins": 185, "winRate": "71%", "score": 1950 }
+    ],
+    "reviews": [
+      { "id": "1", "user": "Alex Vance", "avatar": "👨‍💻", "rating": 5, "date": "2 days ago", "comment": "Classic game executed flawlessly! The AI difficulty levels provide a solid challenge." },
+      { "id": "2", "user": "Elena Rostova", "avatar": "👩‍🎨", "rating": 5, "date": "1 week ago", "comment": "Online multiplayer works super fast with zero latency. Love the clean UI!" },
+      { "id": "3", "user": "David K.", "avatar": "🎮", "rating": 4, "date": "2 weeks ago", "comment": "Great casual game to test quick strategic thinking during breaks." }
+    ]
+  },
+  "memorycards": {
+    "id": "memorycards",
+    "title": "Memory Cards",
+    "tagline": "Test your focus and short-term visual memory matching pairs.",
+    "description": "Flip and match matching pairs of cards in as few moves and fastest time as possible. Train concentration and pattern recognition skills.",
+    "category": "Memory & Focus",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "totalReviews": 980,
+    "plays": "18.6k",
+    "icon": "🧠🃏",
+    "color": "from-purple-600 to-pink-700",
+    "stats": {
+      "onlinePlayers": 98
+    },
+    "rules": [
+      { "step": 1, "title": "Grid Lay Out", "desc": "Cards are shuffled face-down across a rectangular grid." },
+      { "step": 2, "title": "Flip Two Cards", "desc": "Select two cards to reveal their hidden symbols." },
+      { "step": 3, "title": "Match or Reset", "desc": "If symbols match, cards remain face-up. If not, both cards flip back down." },
+      { "step": 4, "title": "Clear the Board", "desc": "Match all card pairs in minimum total moves to maximize your high score." }
+    ],
+    "tips": [
+      "Mentally divide grid into 2x2 quadrants to remember positions easier.",
+      "Take your time on early flips to memorize board layouts.",
+      "Prioritize uncovering corner cards first."
+    ],
+    "leaderboard": [
+      { "rank": 1, "user": "MindPaladin", "avatar": "🧠", "wins": 412, "winRate": "92%", "score": 3450, "badge": "🏆 Memory Master" },
+      { "rank": 2, "user": "FlashFliplr", "avatar": "⚡", "wins": 380, "winRate": "89%", "score": 3120, "badge": "⚡ Lightning Fast" },
+      { "rank": 3, "user": "CardPro", "avatar": "🃏", "wins": 310, "winRate": "84%", "score": 2890 },
+      { "rank": 4, "user": "VisualGeek", "avatar": "👓", "wins": 275, "winRate": "80%", "score": 2540 }
+    ],
+    "reviews": [
+      { "id": "1", "user": "Sarah C.", "avatar": "👩‍⚕️", "rating": 5, "date": "3 days ago", "comment": "Super addicting! Great quick mental exercise before starting work." },
+      { "id": "2", "user": "Marcus Brody", "avatar": "🎯", "rating": 5, "date": "5 days ago", "comment": "The smooth card animations and timers make competing on the leaderboard really fun." }
+    ]
+  }
+}
