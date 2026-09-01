@@ -13,7 +13,7 @@ export default function DedicatedPlayPage() {
   const gameId = params.id as string
   const mode = (searchParams.get('mode') as 'computer' | 'online') || 'computer'
 
-  const VALID_GAMES = ['tic-tac-toe', 'memory-cards']
+  const VALID_GAMES = ['tic-tac-toe', 'memorycards']
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col">
@@ -38,7 +38,7 @@ export default function DedicatedPlayPage() {
         <div className="w-full max-w-4xl bg-slate-900 border border-slate-800 rounded-3xl p-8 min-h-[500px] flex items-center justify-center">
           {/* Render active game component */}
           {gameId === 'tic-tac-toe' && <TicTacToe mode={mode} />}
-          {gameId === 'memory-cards' && <MemoryCards />}
+          {gameId === 'memorycards' && <MemoryCards  />}
 
           {/* Show fallback message only if gameId doesn't match any registered game */}
           {!VALID_GAMES.includes(gameId) && (

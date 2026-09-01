@@ -45,18 +45,18 @@ services:
     command: sh -c "node seed.js && npm start"   # Runs seeding first, then starts server
 
   # Next.js Frontend Service
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    container_name: next_frontend
-    restart: always
-    ports:
-      - "3000:3000"
-    environment:
-      NEXT_PUBLIC_API_URL: http://localhost:5000
-    depends_on:
-      - backend
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile
+  #   container_name: next_frontend
+  #   restart: always
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     NEXT_PUBLIC_API_URL: http://localhost:5000
+  #   depends_on:
+  #     - backend
 
 volumes:
   db_data:
