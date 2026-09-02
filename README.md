@@ -11,7 +11,7 @@ This is a comprehensive minigame platform built as a portfolio project. It inclu
 <p align="center">
   <a href="https://youtu.be/eaV01Ua-9qI">
     <img
-      src="https://img.youtube.com/vi/eaV01Ua-9qI/maxresdefault.jpg"
+      src="https://img.youtube.com/vi/GaN6YzGxbr4/maxresdefault.jpg"
       alt="Watch Project Demo"
       width="700"
     />
