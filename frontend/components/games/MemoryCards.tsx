@@ -70,7 +70,6 @@ export default function MemoryCards() {
     }
   }, [isOffline, initOfflineGame])
 
-
   // -------------------------------------------------------------
   // OFFLINE MATCH EVALUATION LOGIC
   // -------------------------------------------------------------
@@ -250,10 +249,10 @@ export default function MemoryCards() {
     setRoomId(null)
   }
 
-  const isMyTurn = isOffline ? true : socket ? currentTurn === socket.id : false
-  const myScore = isOffline ? scores.player : socket ? scores[socket.id] || 0 : 0
+  const isMyTurn = isOffline ? true : socket?.id ? currentTurn === socket.id : false
+  const myScore = isOffline ? scores.player : socket?.id ? (scores[socket.id] ?? 0) : 0
   const opponentId = isOffline ? 'opponent' : Object.keys(scores).find((id) => id !== socket?.id)
-  const opponentScore = opponentId ? scores[opponentId] : 0
+  const opponentScore = opponentId ? (scores[opponentId] ?? 0) : 0
 
   return (
     <div className="w-full max-w-lg mx-auto flex flex-col items-center gap-6">
