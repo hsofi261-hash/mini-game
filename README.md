@@ -1,4 +1,4 @@
-# Minigame Portfolio Application
+# Minigame Application
 
 A full-stack web application featuring interactive minigames with authentication, leaderboards, and real-time multiplayer functionality.
 
