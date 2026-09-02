@@ -9,7 +9,7 @@ This is a comprehensive minigame platform built as a portfolio project. It inclu
 ## 🎥 Project Demo
 
 <p align="center">
-  <a href="https://youtu.be/eaV01Ua-9qI">
+  <a href="https://youtu.be/GaN6YzGxbr4">
     <img
       src="https://img.youtube.com/vi/GaN6YzGxbr4/maxresdefault.jpg"
       alt="Watch Project Demo"
@@ -21,6 +21,10 @@ This is a comprehensive minigame platform built as a portfolio project. It inclu
 <p align="center">
   ▶️ <b>Click the image above to watch the project demo</b>
 </p>
+
+**Video link**
+
+[**https://youtu.be/GaN6YzGxbr4**](https://youtu.be/GaN6YzGxbr4)
 
 ## ✨ Features
 
